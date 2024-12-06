@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Kpop Paradise</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Solway&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Solway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+
+<div class="bg"></div>
+
+<a id="backtotop"><i class="fa fa-chevron-up"></i></a>
+
+<script type="text/javascript" src="jquery.backtotop.js"></script>
+
+<header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+    <img src="image/kpop-logo-1.png" class="logo">
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#Home">Home</a><i class="fa fa-home"></i></li>
+            <li><a href="#About Us">About Us</a><i class="fa fa-camera"></i></li>
+            <li><a href="#Category">Category</a><i class="fa fa-lightbulb"></i></li>
+            <li><a href="#Review">Review</a><i class="fa fa-comment"></i></li>
+            <li>
+                <a href="menu.html">Menu <i class="fas fa-caret-down"></i></a>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="menu.html#ALBUMS">ALBUMS</a></li>
+                        <li><a href="menu.html#LIGHT STICKS">LIGHT STICKS</a></li>
+                        <li><a href="menu.html#MERCH">MERCH</a></li>
+                        <li><a href="menu.html#PHOTOBOOK">PHOTOBOOK</a></li>
+                    </ul>
+                </div>
+            </li>
+            
+            <li><a href="login.html">Login</a><i class="fa fa-user"></i></li>
+        </ul>        
+    </nav>
+</header>
+
+<section class="#Home" id="#Home">
+    
+    <div class="content">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                
+                <div class="slide first">
+                    <img src="image/seventeen.jpg" alt="SEVENTEEN">
+                </div>
+                <div class="slide">
+                    <img src="image/bts.jpg" alt="BTS">
+                </div>
+                <div class="slide">
+                    <img src="image/blackpink.jpg" alt="BLACKPINK">
+                </div>
+                <div class="slide"> 
+                    <img src="image/txt.jpg" alt="TOMORROW X TOGETHER">
+                </div>
+                <div class="slide">
+                    <img src="image/new-jeans.jpg" alt="NewJeans">
+                </div>
+                
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div> 
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div> 
+                    <div class="auto-btn5"></div>
+                </div>
+            </div>
+            
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+            </div>
+        </div>
+        
+        <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 5){
+                counter = 1;
+            }
+        }, 6000);
+        </script>
+</section>
+
+
+<section class="#About Us" id="About Us">
+    
+    <div id="About Us" class="about">
+        <div class="image">
+            <img src="image/background.jpg" alt="hello">
+            <div class="writing">
+                <h1>Best K-Pop Merchandise</h1>
+                <span> Trendy and Exclusive Collectibles </span>
+                <p>Welcome to KPOP Paradise If you want to get the hottest K-pop merch in Malaysia, what are you waiting for? Dive into the world of your favorite idols and discover exclusive items now!</p>
+                <a href="login.html" class="btn2">Login Now</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="About Us" class="about-us">
+        
+        <div class="box1">
+            <img src="image/seventeen-concert.jpg">
+            <h2>K-POP ARTISTS - KOREA -</h2>
+            <p>With years of dedication and talent, our idols bring you unforgettable performances.</p>
+        </div>
+        <div class="box1">
+            <img src="image/joshua-mic.jpg">
+            <h2>EXTRAORDINARY TALENT</h2>
+            <p>K-Pop style ^v^<br/>You'll definitely fall in love with their music and charisma! ♡</p>
+        </div>
+        <div class="box1">
+            <img src="image/kpop-collection.jpg">
+            <h2>FRESH INGREDIENTS</h2>
+            <p>Including hits from SEVENTEEN, BTS, BLACKPINK, and more!</p>
+        </div>
+    </div>
+    
+    <div id="About Us" class="container">
+        <div class="picture">
+            <img src="image/background-img.jpg" alt="history">
+            <div class="heading">
+                <h1>ABOUT US</h1>
+                <p>At K-Pop Paradise, we're dedicated to bringing the vibrant world of K-Pop to life! Our store specializes in a wide range of idol merchandise that every fan can cherish. From posters to apparel, we ensure that you have access to the latest and most authentic K-Pop goodies. Experience the excitement of K-Pop culture right here—no need to travel to Korea! Join us at K-Pop Paradise and immerse yourself in the rhythm of your favorite idols.<p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="#Category" id="Category">
+    
+    <h1 class="j">Category</h1>
+    
+    <div class="ehh">
+        <div class="box7">
+            <img src="image/album-cover.jpg" alt="">
+            <h3>ALBUMS</h3>
+            <a href="menu.html#ALBUMS" class="btn7">view more</a>
+        </div>
+
+        <div class="box7">
+            <img src="image/lightstick.jpg" alt="">
+            <h3>LIGHT STICKS</h3>
+            <a href="menu.html#LIGHT STICKS" class="btn7">view more</a>
+        </div>
+
+        <div class="box7">
+            <img src="image/blackpink-merch.jpg" alt="">
+            <h3>MERCH</h3>
+            <a href="menu.html#MERCH" class="btn7">view more</a>
+        </div>
+
+        <div class="box7">
+            <img src="image/photobook.jpg" alt="">
+            <h3>PHOTOBOOK</h3>
+            <a href="menu.html#PHOTOBOOK" class="btn7">view more</a>
+        </div>
+    </div>
+</section>
+   
+<section class="#Review" id="Review">
+
+    <div class="bagos">
+        <h1 class="j">Customer's Review</h1>
+    </div>
+    
+    <div class="box-containeraa">
+        <div class="boxa">
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <p>“As a K-Pop fan, I'm so impressed with K-Pop Paradise! Every corner is filled with idol magic. I especially love the fan merchandise—I'm ready to show it off at the next concert!”</p>
+            <div class="user">
+                <img src="image/icon-1.jpg" alt="">
+                <div class="user-info">
+                    <h3>Cheolii</h3>
+                    <span>krazykpopper</span>
+                </div>
+            </div>
+            <i class="fas fa-quote-right"></i>
+        </div>
+        
+        <div class="boxa">
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            <p>“I love shopping at K-Pop Paradise online! The merchandise is great quality and reasonably priced. I always fill my cart with goodies. Can't wait to order again!”</p>
+            <div class="user">
+                <img src="image/icon-2.jpg" alt="">
+                <div class="user-info">
+                    <h3>Hannie</h3>
+                    <span>sassyfans</span>
+                </div>
+            </div>
+            <i class="fas fa-quote-right"></i>
+        </div>
+        
+        <div class="boxa">
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>“My first online shopping experience at K-Pop Paradise was good. They have a great selection at reasonable prices, but the shipping took longer than expected. Overall, I'm satisfied.”</p>
+            <div class="user">
+                <img src="image/icon-3.jpg" alt="">
+                <div class="user-info">
+                    <h3>Joshuji</h3>
+                    <span>kpoplover</span>
+                </div>
+            </div>
+            <i class="fas fa-quote-right"></i>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    
+    <div class="box-container">
+        <div class="box">
+            <h3> Kpop Paradise </h3>
+            <p>Thanks for supporting K-Pop Paradise! We appreciate it if you share your love for our store on social media. Your support helps us grow!</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +6012-3456789 </a>
+            <a href="#" class="links"> <i class="fas fa-clock"></i> 10:00am to 10.00pm </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> kpoparadise@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> 14, Jalan Miao Meow, Taman Heaven, Ipoh, Perak, Malaysia </a>
+        </div>
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#Home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#About Us" class="links"> <i class="fas fa-arrow-right"></i> about us </a>
+            <a href="#Category" class="links"> <i class="fas fa-arrow-right"></i> category </a>
+            <a href="#Review" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="menu.html" class="links"> <i class="fas fa-arrow-right"></i> menu </a>
+            <a href="Login.html" class="links"> <i class="fas fa-arrow-right"></i> login </a>
+        </div>
+    </div>
+    <div class="credit"> created by <span> mrs. carat </span></div>
+</section>
+
+<script src="hehe.js"></script>
+<script src="play.js"></script>
+<script src="search.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
